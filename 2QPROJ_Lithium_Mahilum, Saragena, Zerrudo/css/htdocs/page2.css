@@ -1,0 +1,144 @@
+description{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+a:hover{
+    color: red;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    text-align: center;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 1340px;
+    font-size: 70px;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+nav{
+    background-color: white;
+    color: skyblue;
+    width: 1350px;
+    position: fixed;
+    top: 89px;
+    left: 0px;
+    text-align: center;
+    border-color: white;
+    border-radius: 2px;
+    border-color: black;
+    border-radius: 3px;     
+}
+a{
+    margin-right: 30px;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+hr{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+img{ 
+    margin-top: 1px;
+    margin-bottom: 30px;
+    width: 400px; 
+}
+aside{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:800px;
+    font-size: 25px;
+    float: left;
+    margin-left: 25px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+hr{
+    clear: left;
+}
+h1{
+    margin-top: 1px;
+}
+article{
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    top:600px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    width: 1350px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sprite {
+    background: url('../images/logo\ sprites.png') no-repeat 0 0;
+    width: 97px;
+    height: 100px;
+    animation: walkAnimation 1.5s steps(30) infinite;
+    position: fixed;
+    top: 0px;
+    left: 1255px;
+  }
+
+  @keyframes walkAnimation {
+    0% { background-position-x: 0px; }
+    3.33% { background-position-x: -10px; }
+    6.67% { background-position-x: -20px; }
+    10% { background-position-x: -30px; }
+    13.33% { background-position-x: -40px; }
+    16.67% { background-position-x: -50px; }
+    20% { background-position-x: -60px; }
+    23.33% { background-position-x: -70px; }
+    26.67% { background-position-x: -80px; }
+    30% { background-position-x: -90px; }
+    33.33% { background-position-x: -100px; }
+    36.67% { background-position-x: -110px; }
+    40% { background-position-x: -120px; }
+    43.33% { background-position-x: -130px; }
+    46.67% { background-position-x: -140px; }
+    50% { background-position-x: -150px; }
+    53.33% { background-position-x: -160px; }
+    56.67% { background-position-x: -170px; }
+    60% { background-position-x: -180px; }
+    63.33% { background-position-x: -190px; }
+    66.67% { background-position-x: -200px; }
+    70% { background-position-x: -210px; }
+    73.33% { background-position-x: -220px; }
+    76.67% { background-position-x: -230px; }
+    80% { background-position-x: -240px; }
+    83.33% { background-position-x: -250px; }
+    86.67% { background-position-x: -260px; }
+    90% { background-position-x: -270px; }
+    93.33% { background-position-x: -280px; }
+    96.67% { background-position-x: -290px; }
+    100% { background-position-x: -300px; }
+  }
